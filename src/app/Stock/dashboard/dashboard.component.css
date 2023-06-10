@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+}
+
+.verticalLine {
+    border-left: 1px solid white;
+    height: 25px;
+    margin-left: 25px;
+}
+.navbar-nav .row {
+    width: 70vw;
+}
+input{
+    padding-right: 20px;
+    border-radius: 20px;
+    background-color: rgb(76, 76, 76);
+    border-color: rgb(76, 76, 76);
+    color: white;
+}
+
+
+::placeholder{
+    color: rgb(164, 164, 164);
+    font-size: 15px;
+}
+
+.profile {
+    margin-right: 50px;
+    padding-top: 10px;
+    color: white;
+}
+.profile h4{
+    margin-left: 10px;
+}
+
+.card {
+    background-color: rgb(39, 39, 39);
+    border: 20px solid white;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+.col-1 {
+    margin-left: 10px;
+}
+#username {
+    color: white;
+    font-size: 13px;
+}
+#email {
+    color: rgb(177, 177, 177);
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.col-lg-2 {
+    border-radius: 10px;
+    height: 100vh;
+}
+
+.dashboard-body .col {
+    border-radius: 10px;
+    height: 100vh;
+}
+.container {
+    padding: 15px;
+}
+.container .heading{
+    margin-left: 10px;
+}
+.stock-text {
+    color: gray;
+    font-size: 15px;
+    font-weight: 500;
+}
+.col-2 h5{
+    font-size: 15px;
+}
+.col-2 a {
+    text-decoration: none;
+    color: green;
+    font-weight: 500;
+}
+.data-table {
+    height: 50px;
+}
+table {
+    box-shadow: none;
+    height: 90vh;
+}
