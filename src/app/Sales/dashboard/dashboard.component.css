@@ -10,14 +10,6 @@
 .navbar-nav .row {
     width: 70vw;
 }
-input{
-    padding-right: 20px;
-    border-radius: 20px;
-    background-color: rgb(76, 76, 76);
-    border-color: rgb(76, 76, 76);
-    color: white;
-}
-
 
 ::placeholder{
     color: rgb(164, 164, 164);
@@ -31,14 +23,6 @@ input{
 }
 .profile h4{
     margin-left: 10px;
-}
-
-.card {
-    background-color: rgb(39, 39, 39);
-    border: 20px solid white;
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
 }
 .col-1 {
     margin-left: 10px;
@@ -68,23 +52,26 @@ input{
 .container .heading{
     margin-left: 10px;
 }
-.stock-text {
-    color: gray;
-    font-size: 15px;
-    font-weight: 500;
+.container-body {
+    padding: 20px;
 }
-.col-2 h5{
-    font-size: 15px;
+.card:hover{
+    background-color: rgb(98, 98, 243);
+    color: white;
+    
 }
-.col-2 a {
-    text-decoration: none;
-    color: green;
-    font-weight: 500;
+
+.sales-card-text {
+    padding: 10px;
 }
-.data-table {
-    height: 50px;
+.col-7 {
+    margin-left: 60px;
+}
+.sales-table {
+    margin: 10px;
+    height: 80%;
 }
 table {
-    box-shadow: none;
-    height: 90vh;
+    height: 50%;
 }
+
