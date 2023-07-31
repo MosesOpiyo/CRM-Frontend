@@ -8,13 +8,13 @@
                 <h3>Phones And Tablets</h3>
             </div>
             <h4 class=" clo-lg-5 text-center py-5 ">Welcome back</h4>
-        <form>
-            <label for="email" style="font-size: small;">Email Address</label>
+        <form (ngSubmit)="loginUser()">
+            <label for="email"  style="font-size: small;">Email Address</label>
             <br>
-            <input id="email " name="email " placeholder="Email" class="form-control" type="email" required>
+            <input id="email " [(ngModel)]="email" name="email " placeholder="Email" class="form-control" type="email" required>
             <label for="password" style="font-size: small;">Password</label>
             <br>
-            <input input id="password" name="password" placeholder="Password" class="form-control" type="password" required>
+            <input input id="password" name="password" [(ngModel)]="password" placeholder="Password" class="form-control" type="password" required>
             <button type="button" class="btn btn-link float-end" style="font-size: small;">Forgotten Password?</button>
             <br>
             <input class="btn btn-primary" type="submit" style="font-size: small;" value="Log In">
