@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+}
+
+.verticalLine {
+    border-left: 1px solid white;
+    height: 25px;
+    margin-left: 25px;
+}
+.navbar-nav .row {
+    width: 70vw;
+}
+
+::placeholder{
+    color: rgb(164, 164, 164);
+    font-size: 15px;
+}
+.col-1 {
+    margin-left: 10px;
+}
+#username {
+    color: white;
+    font-size: 13px;
+}
+#email {
+    color: rgb(177, 177, 177);
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.col-lg-2 {
+    border-radius: 10px;
+    height: 100vh;
+}
+
+.dashboard-body .col {
+    border-radius: 10px;
+    height: 100vh;
+}
+.container {
+    padding: 15px;
+}
+.container .heading{
+    margin-left: 10px;
+}
+.container-body {
+    padding: 20px;
+}
+.card:hover{
+    background-color: rgb(98, 98, 243);
+    color: white;
+    
+}
+
+.sales-card-text {
+    padding: 10px;
+}
+.col-7 {
+    margin-left: 60px;
+}
+.sales-table {
+    margin: 10px;
+    height: 80%;
+}
+table {
+    height: 50%;
+}
