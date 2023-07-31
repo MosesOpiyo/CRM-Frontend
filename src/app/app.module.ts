@@ -6,6 +6,8 @@ import {MatButtonModule} from '@angular/material/button';
 import {FormsModule} from '@angular/forms';
 import {MatInputModule} from '@angular/material/input';
 import {MatFormFieldModule} from '@angular/material/form-field';
+import { HttpClientModule } from '@angular/common/http';
+import { RouterModule } from '@angular/router';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -14,6 +16,7 @@ import { DashboardComponent } from './Sales/dashboard/dashboard.component';
 import { SideNavComponent } from './side-nav/side-nav.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SaleComponent } from './Sales/sale/sale.component';
+import { StocksComponent } from './stocks/stocks.component';
 
 @NgModule({
   declarations: [
@@ -21,18 +24,21 @@ import { SaleComponent } from './Sales/sale/sale.component';
     LoginComponent,
     DashboardComponent,
     SideNavComponent,
-    SaleComponent
+    SaleComponent,
+    StocksComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    HttpClientModule,
     MatTableModule,
     MatPaginatorModule,
     MatButtonModule,
     FormsModule,
     MatInputModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
